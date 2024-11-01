@@ -177,7 +177,7 @@
                     "enabled": false
                 },
                 "tooltip": {
-                    "content": "NS/PEI", // Tooltip Name
+                    "content": "PEI/NS", // Tooltip Name
                     "direction": 2,
                     "sticky": true
                 }
