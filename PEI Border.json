@@ -1,5 +1,3 @@
-# Pl3xMap/markers/world/PEI Border.json
-
 {
     "key": "PEI_Border", //Internal ID
     "label": "PEI Border", //Name in control box
@@ -87,7 +85,7 @@
                     "enabled": false
                 },
                 "tooltip": {
-                    "content": "NS/PEI", // Tooltip Name
+                    "content": "PEI/NS", // Tooltip Name
                     "direction": 2,
                     "sticky": true
                 }

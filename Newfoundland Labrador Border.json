@@ -1,11 +1,9 @@
-# Pl3xMap/markers/world/custom_square.json
-
 {
     "key": "NL_Border", //Internal ID
     "label": "Newfoundland Labrador Border", //Name in control box
     "updateInterval": 60, //In seconds
     "showControls": true, //Show in control box
-    "defaultHidden": false, //Hidden in control box
+    "defaultHidden": false, //Hidden when map is first opened
     "priority": 10, //Order in Control Box
     "zIndex": 500, //Layer on map (not terrain level)
     "markers": [
@@ -665,6 +663,31 @@
                     "sticky": true
                 }
             }
-        }        
+        },
+        {
+            "type": "circ",
+            "data": {
+                "key": "Circle",
+                "center": {
+                    "x": -7474163.483661354, // Point Name
+                    "z": -7681069.969193312
+                },
+                "radius": 22897.23032                      
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "NL", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        } 
     ]
 }
