@@ -1,0 +1,287 @@
+{
+    "key": "NS_Border", //Internal ID
+    "label": "Nova Scotia Border", //Name in control box
+    "updateInterval": 60, //In seconds
+    "showControls": true, //Show in control box
+    "defaultHidden": false, //Hidden when map is first opened
+    "priority": 10, //Order in Control Box
+    "zIndex": 500, //Layer on map (not terrain level)
+    "markers": [
+        {
+            "type": "line",
+            "data": {
+                "key": "World_Border",
+                "points": [
+                   {
+                        "x": -8081031.3724846775, // Point Name
+                        "z": -6629928.895915534
+                    },
+                   {
+                        "x": -8001358.304987679, // Point Name
+                        "z": -6535998.1603027005
+                    },
+                   {
+                        "x": -7943703.049994153, // Point Name
+                        "z": -6549960.786227844
+                    },
+                   {
+                        "x": -7893322.097486643, // Point Name
+                        "z": -6632811.555676739
+                    },
+                   {
+                        "x": -7871806.749920648, // Point Name
+                        "z": -6706351.760516295
+                    },
+                   {
+                        "x": -7691616.492277096, // Point Name
+                        "z": -6919238.7820341475
+                    },
+                   {
+                        "x": -7685567.348830073, // Point Name
+                        "z": -6966451.889576654
+                    },
+                   {
+                        "x": -7640743.411932736, // Point Name
+                        "z": -7064344.599971609
+                    },
+                   {
+                        "x": -7669963.957052613, // Point Name
+                        "z": -7093082.569194265
+                    },
+                   {
+                        "x": -7702730.939126458, // Point Name
+                        "z": -7091266.696216421
+                    },
+                   {
+                        "x": -7741724.72769483, // Point Name
+                        "z": -7138587.339763345
+                    },
+                   {
+                        "x": -7714036.737432973, // Point Name
+                        "z": -7208540.992037746
+                    }        
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "NS", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "line",
+            "data": {
+                "key": "NL_Border",
+                "points": [
+                   {
+                        "x": -7714036.737432973, // Point Name
+                        "z": -7208540.992037746
+                    },
+                   {
+                        "x": -7810037.712954068, // Point Name
+                        "z": -7204678.527532251
+                    }        
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "NS/NL", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "line",
+            "data": {
+                "key": "QC_Border",
+                "points": [
+                   {
+                        "x": -7810037.712954068, // Point Name
+                        "z": -7204678.527532251
+                    },
+                   {
+                        "x": -7832963.328673031, // Point Name
+                        "z": -7094813.39925929
+                    },     
+                   {
+                        "x": -7827158.166681586, // Point Name
+                        "z": -7075999.368028661
+                    }   
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "NS/QC", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "line",
+            "data": {
+                "key": "PEI_Border",
+                "points": [
+                   {
+                        "x": -7827158.166681586, // Point Name
+                        "z": -7075999.368028661
+                    },
+                   {
+                        "x": -7818057.526867734, // Point Name
+                        "z": -7028849.480624193
+                    },
+                   {
+                        "x": -7835939.46374718, // Point Name
+                        "z": -6955553.282718556
+                    },
+                   {
+                        "x": -7870830.648247711, // Point Name
+                        "z": -6925467.830496259
+                    },
+                   {
+                        "x": -7940342.770064563, // Point Name
+                        "z": -6922649.332161227
+                    }        
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "NS/PEI", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "line",
+            "data": {
+                "key": "NB_Border",
+                "points": [
+                   {
+                        "x": -7940342.770064563, // Point Name
+                        "z": -6922649.332161227
+                    },
+                   {
+                        "x": -7975227.663889979, // Point Name
+                        "z": -6890149.9919381365
+                    },
+                   {
+                        "x": -7975695.697233837, // Point Name
+                        "z": -6889348.686844296
+                    },
+                   {
+                        "x": -8005635.926216223, // Point Name
+                        "z": -6808317.957532435
+                    },
+                   {
+                        "x": -8001997.190986172, // Point Name
+                        "z": -6781978.072098387
+                    },
+                   {
+                        "x": -8055757.787159294, // Point Name
+                        "z": -6722942.904744357
+                    },
+                   {
+                        "x": -8081031.3724846775, // Point Name
+                        "z": -6629928.895915534
+                    }        
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "NB/NS", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "line",
+            "data": {
+                "key": "Island",
+                "points": [
+                   {
+                        "x": -7578209.38773225, // Point Name
+                        "z": -6813149.918559289
+                    },
+                   {
+                        "x": -7546377.525606118, // Point Name
+                        "z": -6824118.239698384
+                    },
+                   {
+                        "x": -7529202.793834672, // Point Name
+                        "z": -6877968.113297664
+                    },
+                   {
+                        "x": -7560511.712468869, // Point Name
+                        "z": -6885352.239423862
+                    },
+                   {
+                        "x": -7599979.438001694, // Point Name
+                        "z": -6851349.254213511
+                    },
+                   {
+                        "x": -7602447.421422832, // Point Name
+                        "z": -6826268.890323105
+                    },
+                   {
+                        "x": -7578209.38773225, // Point Name
+                        "z": -6813149.918559289
+                    }       
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "NS", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        }
+    ]
+}

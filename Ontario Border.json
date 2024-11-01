@@ -1,11 +1,9 @@
-# Pl3xMap/markers/world/ON_Border.json
-
 {
     "key": "ON_Border", //Internal ID
     "label": "Ontario Border", //Name in control box
     "updateInterval": 60, //In seconds
     "showControls": true, //Show in control box
-    "defaultHidden": false, //Hidden in control box
+    "defaultHidden": false, //Hidden when map is first opened
     "priority": 10, //Order in Control Box
     "zIndex": 500, //Layer on map (not terrain level)
     "markers": [
