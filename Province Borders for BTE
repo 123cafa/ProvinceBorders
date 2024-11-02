@@ -1,5 +1,6 @@
 Province Border Coordinates
 Taken from https://nominatim.openstreetmap.org/search?q=saskatchewan,%20Canada&format=xml&polygon_geojson=1&polygon_threshold=0.1
+Converted through: https://app.terrasketch.codestian.com/
 
 Newfoundland and Labrador
 	54.0257023, -67.8216853			"-8591203.70424847, y, -7608981.656623332"
