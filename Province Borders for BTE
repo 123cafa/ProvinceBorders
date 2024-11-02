@@ -1,7 +1,7 @@
 Province Border Coordinates
 Taken from https://nominatim.openstreetmap.org/search?q=saskatchewan,%20Canada&format=xml&polygon_geojson=1&polygon_threshold=0.1
 
-Newfoundland and Labrador (Extra part not done)
+Newfoundland and Labrador
 	54.0257023, -67.8216853			"-8591203.70424847, y, -7608981.656623332"
 	54.0200088, -67.8206285			"-8590893.724020286, y, -7608420.324513232" (Taken from QC)
 	53.5529653, -67.3186608			"-8539958.681465995, y, -7573180.139276528"
@@ -867,7 +867,7 @@ British Columbia
 		54.2923181, -133.0914682 	"-12828926.027198466, y, -8022743.815333768" (Top)
 		53.911868, -133.2260288 	"-12865174.276575075, y, -7985893.591798788" (Repeat)
 
-Nunavut
+Nunavut (Have not drawn yet)
 	68.0002875, -120.6828104
 	66.8378442, -116.4971433
 	65.5003203, -112.5012946
