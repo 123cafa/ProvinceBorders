@@ -219,7 +219,7 @@
                     "enabled": false
                 },
                 "tooltip": {
-                    "content": "", // Tooltip Name
+                    "content": "YU/NWT", // Tooltip Name
                     "direction": 2,
                     "sticky": true
                 }
@@ -228,11 +228,71 @@
         {
             "type": "line",
             "data": {
-                "key": "",
+                "key": "BC_Border",
                 "points": [
                    {
                         "x": -11924948.765785102, // Point Name
                         "z": -8323539.67396875
+                    },
+                   {
+                        "x": -11719375.266813416, // Point Name
+                        "z": -8227618.623773358
+                    }        
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "NWT/BC", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+                {
+            "type": "line",
+            "data": {
+                "key": "AB_Border",
+                "points": [
+                   {
+                        "x": -11719375.266813416, // Point Name
+                        "z": -8227618.623773358
+                    },
+                   {
+                        "x": -11167730.527983543, // Point Name
+                        "z": -8043173.536855796
+                    }        
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "NWT/AB", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+                {
+            "type": "line",
+            "data": {
+                "key": "SK_Border",
+                "points": [
+                   {
+                        "x": -11167730.527983543, // Point Name
+                        "z": -8043173.536855796
                     },
                    {
                         "x": -10719563.852612637, // Point Name
@@ -249,7 +309,7 @@
                     "enabled": false
                 },
                 "tooltip": {
-                    "content": "", // Tooltip Name
+                    "content": "NWT/SK", // Tooltip Name
                     "direction": 2,
                     "sticky": true
                 }
@@ -343,7 +403,7 @@
                     "enabled": false
                 },
                 "tooltip": {
-                    "content": "", // Tooltip Name
+                    "content": "NWT/NU", // Tooltip Name
                     "direction": 2,
                     "sticky": true
                 }
@@ -449,7 +509,7 @@
                     "enabled": false
                 },
                 "tooltip": {
-                    "content": "", // Tooltip Name
+                    "content": "NWT", // Tooltip Name
                     "direction": 2,
                     "sticky": true
                 }
