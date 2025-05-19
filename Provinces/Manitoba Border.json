@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "key": "MB_Border", //Internal ID
     "label": "Manitoba Border", //Name in control box
@@ -222,4 +223,230 @@
             }
         }                        
     ]
+=======
+{
+    "key": "MB_Border", //Internal ID
+    "label": "Manitoba Border", //Name in control box
+    "updateInterval": 60, //In seconds
+    "showControls": true, //Show in control box
+    "defaultHidden": false, //Hidden when map is first opened
+    "priority": 10, //Order in Control Box
+    "zIndex": 500, //Layer on map (not terrain level)
+    "markers": [
+        {
+            "type": "line",
+            "data": {
+                "key": "SK_Border",
+                "points": [
+                   {
+                        "x": -10719563.852612637, // Point Name
+                        "z": -7961362.182221975
+                    },
+                  {
+                       "x": -10722212.495767275, // Point Name
+                       "z": -7939150.0975089865
+                   },
+                   {
+                        "x": -10772535.739765301, // Point Name
+                        "z": -7490023.7892788425
+                    },
+                   {
+                        "x": -10799277.551365172, // Point Name
+                        "z": -6719255.052310492
+                    }        
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "SK/MB", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "line",
+            "data": {
+                "key": "USA_Border",
+                "points": [
+                   {
+                        "x": -10799277.551365172, // Point Name
+                        "z": -6719255.052310492
+                    },
+                   {
+                        "x": -10341374.40766259, // Point Name
+                        "z": -6701152.110144934
+                    }        
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "MB/USA", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "line",
+            "data": {
+                "key": "ON_Border",
+                "points": [
+                   {
+                        "x": -10341374.40766259, // Point Name
+                        "z": -6701152.110144934
+                    },
+
+                   {
+                        "x": -10341638.803023495, // Point Name
+                        "z": -6745396.219149785
+                    },
+
+                   {
+                        "x": -10341273.257777723, // Point Name
+                        "z": -7132487.6330859475
+                    },
+                   {
+                        "x": -9961726.805218758, // Point Name
+                        "z": -7595866.65360754
+                    },
+                   {
+                        "x": -10080044.52214667, // Point Name
+                        "z": -7634510.89263084
+                    },
+                   {
+                        "x": -10188058.711145978, // Point Name
+                        "z": -7598860.241052704
+                    },
+                   {
+                        "x": -10173466.344225196, // Point Name
+                        "z": -7641534.611442403
+                    },
+                   {
+                        "x": -10220946.532175668, // Point Name
+                        "z": -7792897.7795083495
+                    },
+                   {
+                        "x": -10296485.321318239, // Point Name
+                        "z": -7792275.363410996
+                    },
+                   {
+                        "x": -10318961.517002575, // Point Name
+                        "z": -7830936.530102729
+                    },
+                   {
+                        "x": -10313794.710780768, // Point Name
+                        "z": -7837930.474948389
+                    },
+                   {
+                        "x": -10311879.620172976, // Point Name
+                        "z": -7858247.18415054
+                    },
+                   {
+                        "x": -10314934.143023849, // Point Name
+                        "z": -7859418.997895798
+                    },
+                   {
+                        "x": -10313955.871933406, // Point Name
+                        "z": -7860167.830871771
+                    },
+                   {
+                        "x": -10314465.723289667, // Point Name
+                        "z": -7860788.565101637
+                    },
+                   {
+                        "x": -10314191.701517843, // Point Name
+                        "z": -7861094.670255964
+                    },
+                   {
+                        "x": -10314961.10687044, // Point Name
+                        "z": -7861409.235001322
+                    },
+                   {
+                        "x": -10315087.478342403, // Point Name
+                        "z": -7861690.558061593
+                    },
+                   {
+                        "x": -10315028.496185642, // Point Name
+                        "z": -7861914.297250884
+                    },
+                   {
+                        "x": -10310201.78798858, // Point Name
+                        "z": -7859270.762531721
+                    },
+                   {
+                        "x": -10307529.673128743, // Point Name
+                        "z": -7862597.708011821
+                    },
+                   {
+                        "x": -10317252.801435225, // Point Name
+                        "z": -7890954.485162309
+                    },
+                   {
+                        "x": -10316244.760208026, // Point Name
+                        "z": -7935343.766112538
+                    }        
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "MB/ON", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "line",
+            "data": {
+                "key": "NU_Border",
+                "points": [
+                   {
+                        "x": -10316244.760208026, // Point Name
+                        "z": -7935343.766112538
+                    },
+                   {
+                        "x": -10719563.852612637, // Point Name
+                        "z": -7961362.182221975
+                    }        
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "NU/MB", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        }                        
+    ]
+>>>>>>> northwest
 }

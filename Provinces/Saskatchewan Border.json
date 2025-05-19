@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "key": "SK_Border", //Internal ID
     "label": "Saskatchewan Border", //Name in control box
@@ -134,4 +135,142 @@
     ]
 }
 
+=======
+{
+    "key": "SK_Border", //Internal ID
+    "label": "Saskatchewan Border", //Name in control box
+    "updateInterval": 60, //In seconds
+    "showControls": true, //Show in control box
+    "defaultHidden": false, //Hidden when map is first opened
+    "priority": 10, //Order in Control Box
+    "zIndex": 500, //Layer on map (not terrain level)
+    "markers": [
+        {
+            "type": "line",
+            "data": {
+                "key": "AB_Border",
+                "points": [
+                    {
+                        "x": -11167730.527983543, //Top Left
+                        "z": -8043173.536855796
+                    },
+                    {
+                        "x": -11438091.084009117, //Bottom Left
+                        "z": -6805870.6596695045
+                    }                           
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "AB/SK", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "line",
+            "data": {
+                "key": "NWT_Border",
+                "points": [
+                    {
+                        "x": -11167730.527983543, //Top Left
+                        "z": -8043173.536855796
+                    },
+                    {
+                        "x": -10719563.852612637, //Top Right 
+                        "z": -7961362.182221975
+                    }                           
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "NWT/SK", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "line",
+            "data": {
+                "key": "MB_Border",
+                "points": [
+                    {
+                        "x": -10799277.551365172, //Bottom Right
+                        "z": -6719255.052310492
+                    },
+                    {
+                        "x": -10772535.739765301, //Middle Right
+                        "z": -7490023.7892788425
+                    }, 
+                    {
+                        "x": -10719563.852612637, //Top Right
+                        "z": -7961362.182221975
+                    }                           
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "SK/MB", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "line",
+            "data": {
+                "key": "USA_Border",
+                "points": [
+                    {
+                        "x": -11438091.084009117, //Bottom Left
+                        "z": -6805870.6596695045
+                    },
+                    {
+                        "x": -10799277.551365172, //Bottom Right
+                        "z": -6719255.052310492
+                    }                            
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "SK/USA", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        }                
+    ]
+}
+
+>>>>>>> northwest
  

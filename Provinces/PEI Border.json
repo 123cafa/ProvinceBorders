@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "key": "PEI_Border", //Internal ID
     "label": "PEI Border", //Name in control box
@@ -130,4 +131,138 @@
             }
         }
     ]
+=======
+{
+    "key": "PEI_Border", //Internal ID
+    "label": "PEI Border", //Name in control box
+    "updateInterval": 60, //In seconds
+    "showControls": true, //Show in control box
+    "defaultHidden": false, //Hidden when map is first opened
+    "priority": 10, //Order in Control Box
+    "zIndex": 500, //Layer on map (not terrain level)
+    "markers": [
+        {
+            "type": "line",
+            "data": {
+                "key": "NB_Border",
+                "points": [
+                   {
+                        "x": -7940342.770064563, // Point Name
+                        "z": -6922649.332161227
+                    },
+                   {
+                        "x": -8013243.507509905, // Point Name
+                        "z": -6926719.885166848
+                    },
+                   {
+                        "x": -8047541.785264707, // Point Name
+                        "z": -6968495.634955613
+                    },
+                   {
+                        "x": -8050199.925477065, // Point Name
+                        "z": -6990427.11462778
+                    },
+                   {
+                        "x": -7999428.876099782, // Point Name
+                        "z": -7084403.027264946
+                    }        
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "NB/PEI", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "line",
+            "data": {
+                "key": "NS_Border",
+                "points": [
+                   {
+                        "x": -7827158.166681586, // Point Name
+                        "z": -7075999.368028661
+                    },
+                   {
+                        "x": -7818057.526867734, // Point Name
+                        "z": -7028849.480624193
+                    },
+                   {
+                        "x": -7835939.46374718, // Point Name
+                        "z": -6955553.282718556
+                    },
+                   {
+                        "x": -7870830.648247711, // Point Name
+                        "z": -6925467.830496259
+                    },
+                   {
+                        "x": -7940342.770064563, // Point Name
+                        "z": -6922649.332161227
+                    }        
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "PEI/NS", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "line",
+            "data": {
+                "key": "QC_Border",
+                "points": [
+                   {
+                        "x": -7999428.876099782, // Point Name
+                        "z": -7084403.027264946
+                    },                                    
+                   {
+                        "x": -7952212.377526579, // Point Name
+                        "z": -7049236.534983181
+                    },
+                   {
+                        "x": -7889194.291741202, // Point Name
+                        "z": -7043209.435243793
+                    },
+                   {
+                        "x": -7827158.166681586, // Point Name
+                        "z": -7075999.368028661
+                    }
+                ]
+            },
+            "options": {
+                "stroke": {
+                    "weight": 2,
+                    "color": -65536
+                },
+                "fill": {
+                    "enabled": false
+                },
+                "tooltip": {
+                    "content": "QC/PEI", // Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        }
+    ]
+>>>>>>> northwest
 }
