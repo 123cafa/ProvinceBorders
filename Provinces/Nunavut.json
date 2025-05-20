@@ -10,7 +10,7 @@
         {
             "type": "line",
             "data": {
-                "key": "Border 1",
+                "key": "MB_Border",
                 "points": [
                    {
                         "x": -10719563.852612637, // Point Name
@@ -71,7 +71,7 @@
                     "enabled": false
                 },
                 "tooltip": {
-                    "content": "Border 1", // Tooltip Name
+                    "content": "NU/MB", // Tooltip Name
                     "direction": 2,
                     "sticky": true
                 }
@@ -80,7 +80,7 @@
         {
             "type": "line",
             "data": {
-                "key": "Border 2",
+                "key": "ON_Border",
                 "points": [
                    {
                         "x": -9961726.805218758, // Point Name
@@ -165,7 +165,7 @@
                     "enabled": false
                 },
                 "tooltip": {
-                    "content": "Border 2", // Tooltip Name
+                    "content": "NU/ON", // Tooltip Name
                     "direction": 2,
                     "sticky": true
                 }
@@ -174,7 +174,7 @@
         {
             "type": "line",
             "data": {
-                "key": "Border 3",
+                "key": "QC_Border",
                 "points": [
                    {
                         "x": -9259543.892148824, // Point Name
@@ -747,7 +747,7 @@
                     "enabled": false
                 },
                 "tooltip": {
-                    "content": "Border 3", // Tooltip Name
+                    "content": "NU/QC", // Tooltip Name
                     "direction": 2,
                     "sticky": true
                 }
@@ -756,7 +756,7 @@
         {
             "type": "line",
             "data": {
-                "key": "Border 4",
+                "key": "NL_Border",
                 "points": [
                    {
                         "x": -8695962.013406547, // Point Name
@@ -777,7 +777,7 @@
                     "enabled": false
                 },
                 "tooltip": {
-                    "content": "Border 4", // Tooltip Name
+                    "content": "NU/NL", // Tooltip Name
                     "direction": 2,
                     "sticky": true
                 }
@@ -786,7 +786,7 @@
         {
             "type": "line",
             "data": {
-                "key": "Border 5",
+                "key": "NU_Border",
                 "points": [
                    {
                         "x": -8680014.222097509, // Point Name
@@ -975,11 +975,7 @@
                    {
                         "x": -10580420.312856995, // Point Name
                         "z": -10132551.662802257
-                    },
-                   {
-                        "x": -10871249.996204602, // Point Name
-                        "z": -9145344.763155628
-                    }        
+                    }       
                 ]
             },
             "options": {
@@ -991,7 +987,7 @@
                     "enabled": false
                 },
                 "tooltip": {
-                    "content": "Border 5", // Tooltip Name
+                    "content": "NU", // Tooltip Name
                     "direction": 2,
                     "sticky": true
                 }
@@ -1000,8 +996,12 @@
         {
             "type": "line",
             "data": {
-                "key": "Border 6",
+                "key": "NWT_Border",
                 "points": [
+                    {
+                        "x": -10580420.312856995, // Point Name
+                        "z": -10132551.662802257
+                    },
                    {
                         "x": -10871249.996204602, // Point Name
                         "z": -9145344.763155628
@@ -1081,7 +1081,7 @@
                     "enabled": false
                 },
                 "tooltip": {
-                    "content": "Border 6", // Tooltip Name
+                    "content": "NWT/NU", // Tooltip Name
                     "direction": 2,
                     "sticky": true
                 }
