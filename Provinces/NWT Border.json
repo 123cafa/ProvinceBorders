@@ -412,7 +412,7 @@
         {
             "type": "line",
             "data": {
-                "key": "World_Border",
+                "key": "",
                 "points": [
                    {
                         "x": -10580420.312856995, // Point Name
