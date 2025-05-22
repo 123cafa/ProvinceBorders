@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae78095f-4d12-4dfc-823a-518a1e8beead" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Province Borders for BTE" beforeDir="false" afterPath="$PROJECT_DIR$/../Province Borders for BTE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Provinces/Nunavut.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Provinces/Nunavut.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ae78095f-4d12-4dfc-823a-518a1e8beead" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747611006176</updated>
       <workItem from="1747611008050" duration="2052000" />
-      <workItem from="1747702564358" duration="3782000" />
+      <workItem from="1747702564358" duration="3866000" />
     </task>
     <servers />
   </component>
