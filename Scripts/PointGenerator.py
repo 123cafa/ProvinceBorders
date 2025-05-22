@@ -10,6 +10,8 @@ MineCoordinates = []
 for i in range(0, len(lines)):
     if '"' not in lines[i]:
         pass
+    elif 'Replaced' in lines[i]:
+        pass
     else:
         lines[i] = lines[i].split('"')
         MineCoordinates.append(str(lines[i][1]))
