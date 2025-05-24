@@ -10,7 +10,7 @@ MineCoordinates = []
 for i in range(0, len(lines)):
     if '"' not in lines[i]:
         pass
-    elif 'Replaced' in lines[i]:
+    elif 'Unused' in lines[i]:
         pass
     else:
         lines[i] = lines[i].split('"')
