@@ -4,7 +4,7 @@
     "updateInterval": 60, //In seconds
     "showControls": true, //Show in control box
     "defaultHidden": false, //Hidden when map is first opened
-    "priority": 10, //Order in Control Box
+    "priority": 1, //Order in Control Box
     "zIndex": 500, //Layer on map (not terrain level)
     "markers": [
         {
@@ -76,13 +76,21 @@
                         "x": -11952278.71158544, // Point Name
                         "z": -9164896.794583824
                     },
+                   // {
+                   //      "x": -11954906.205645438, // Point Name
+                   //      "z": -9130472.595646886
+                   //  },
                    {
-                        "x": -11954906.205645438, // Point Name
-                        "z": -9130472.595646886
+                        "x": -11953184.472980352, // Point Name
+                        "z": -9132081.470885338
                     },
+                   // {
+                   //      "x": -12005545.421786495, // Point Name
+                   //      "z": -9114673.061720671
+                   //  },
                    {
-                        "x": -12005545.421786495, // Point Name
-                        "z": -9114673.061720671
+                        "x": -12005245.701782629, // Point Name
+                        "z": -9114934.630491303
                     },
                    {
                         "x": -11999278.579842366, // Point Name
