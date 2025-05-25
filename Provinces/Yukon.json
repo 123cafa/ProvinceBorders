@@ -4,7 +4,7 @@
     "updateInterval": 60, //In seconds
     "showControls": true, //Show in control box
     "defaultHidden": false, //Hidden when map is first opened
-    "priority": 1, //Order in Control Box
+    "priority": 2, //Order in Control Box
     "zIndex": 500, //Layer on map (not terrain level)
     "markers": [
 		{

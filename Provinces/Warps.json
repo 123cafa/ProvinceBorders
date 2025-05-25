@@ -1,0 +1,387 @@
+{
+    "key": "Warps", //Internal ID
+    "label": "Warps", //Name in control box
+    "updateInterval": 60, //In seconds
+    "showControls": true, //Show in control box
+    "defaultHidden": false, //Hidden when map is first opened
+    "priority": 1, //Order in Control Box
+    "zIndex": 1000, //Layer on map (not terrain level)
+    "pane": "Warps", //Pane in control box
+    "markers": [
+        {
+            "type": "circ",
+            "data": {
+                "key": "Victoria",
+                "center": {
+                        "x": -12457677, //Top Left
+                        "z": -7015943
+                },
+                "radius": 1                           
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Victoria", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },              
+        {
+            "type": "circ",
+            "data": {
+                "key": "Vancouver",
+                "center": {
+                        "x": -12402926, //Point Name
+                        "z": -7108418
+                },
+                "radius": 1
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Vancouver", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "circ",
+            "data": {
+                "key": "Edmonton",
+                "center": {
+                        "x": -11567947, //Point Name
+                        "z": -7374465
+                },
+                "radius": 1
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Edmonton", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "circ",
+            "data": {
+                "key": "Regina",
+                "center": {
+                        "x": -11018985, //Point Name
+                        "z": -6906705
+                },
+                "radius": 1
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Regina", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "circ",
+            "data": {
+                "key": "Winnipeg",
+                "center": {
+                        "x": -10485141, //Point Name
+                        "z": -6803625
+                },
+                "radius": 1
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Winnipeg", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "circ",
+            "data": {
+                "key": "Toronto",
+                "center": {
+                        "x": -9057004, //Point Name
+                        "z": -6235317
+                },
+                "radius": 1
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Toronto", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "circ",
+            "data": {
+                "key": "Ottawa",
+                "center": {
+                        "x": -8814837, //Point Name
+                        "z": -6504824
+                },
+                "radius": 1
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Ottawa", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "circ",
+            "data": {
+                "key": "Quebec",
+                "center": {
+                        "x": -8524587, //Point Name
+                        "z": -6765299
+                },
+                "radius": 1
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Quebec", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "circ",
+            "data": {
+                "key": "Fredericton",
+                "center": {
+                        "x": -8154464, //Point Name
+                        "z": -6805378
+                },
+                "radius": 1
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Fredericton", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "circ",
+            "data": {
+                "key": "Halifax",
+                "center": {
+                        "x": -7866319, //Point Name
+                        "z": -6773432
+                },
+                "radius": 1
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Halifax", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "circ",
+            "data": {
+                "key": "Charlottetown",
+                "center": {
+                        "x": -7915557, //Point Name
+                        "z": -6952114
+                },
+                "radius": 1
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Charlottetown", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "circ",
+            "data": {
+                "key": "Saint John",
+                "center": {
+                        "x": -7302283, //Point Name
+                        "z": -7499282
+                },
+                "radius": 1
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Saint John", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "circ",
+            "data": {
+                "key": "Whitehorse",
+                "center": {
+                        "x": -12446052, //Point Name
+                        "z": -8766898
+                },
+                "radius": 1
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Whitehorse", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "circ",
+            "data": {
+                "key": "Yellowknife",
+                "center": {
+                        "x": -11321392, //Point Name
+                        "z": -8382472
+                },
+                "radius": 1
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Yellowknife", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        },
+        {
+            "type": "circ",
+            "data": {
+                "key": "Iqaluit",
+                "center": {
+                        "x": -9043585, //Point Name
+                        "z": -8595501
+                },
+                "radius": 1
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Iqaluit", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                }
+            }
+        }
+    ]
+}
