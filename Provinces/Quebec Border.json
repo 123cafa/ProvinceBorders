@@ -1039,7 +1039,7 @@
                     "enabled": false
                 },
                 "tooltip": {
-                    "content": "NB/QC", // Tooltip Name
+                    "content": "QC/NB", // Tooltip Name
                     "direction": 2,
                     "sticky": true
                 }
