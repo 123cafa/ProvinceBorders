@@ -1,0 +1,565 @@
+# Flag used: https://www.flaticon.com/free-icon/flag_6747284
+{
+    "key": "New_Warps", //Internal ID
+    "label": "New_Warps", //Name in control box
+    "updateInterval": 60, //In seconds
+    "showControls": true, //Show in control box
+    "defaultHidden": false, //Hidden when map is first opened
+    "priority": 1, //Order in Control Box
+    "zIndex": 1000, //Layer on map (not terrain level)
+    "pane": "Warps", //Pane in control box (unneeded, unknown what does)
+    "markers": [
+        {
+            "type": "icon",
+            "data": {
+                "key": "Victoria",
+                "point": {
+                        "x": -12457677, //Top Left
+                        "z": -7015943
+                },
+				"image": "POI",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }                    
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Victoria", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+				"popup": {
+					"content": "<html><style>.container {display: grid;grid-template-columns: auto auto;gap: 10px 10px;padding: 10px;background-color: dodgerblue;width: 300px;}.img_small {position: relative;height: 75px;}.img_small img {height: 100%;width: 100%;object-fit: cover;}.img_large {position: relative;grid-column: 1 / span 2;height: 150px;object-fit: cover;}.img_large img {height: 100%;width: 100%;object-fit: cover;}.text {grid-column: 1 / span 2;}.title_text {position: absolute;bottom: -20px;left: 10px;}.image_text {position: absolute;bottom: 1px;left: 3px;}.flags {display: flex;position: absolute;top: 5px;left: 3px;padding: 10px;gap: 10px;}.flags img {height: 20px;object-fit: cover;}</style><body><div class='container'><div class='img_large'><img src='img3.jpg' alt='img3' /><div class='flags'><img src='images/BC.jpg' alt='flag1'/><img src='images/Victoria.jpg' alt='flag2'/></div><div class='title_text'><h2>Victoria, BC</h2></div></div><div class='text'><h1>Victoria, BC</h1><p>Victoria is the capital of British Columbia. Nicknamed<em>the Garden City </em>, it is famous for the ButchartGardens, Fairmont Express hotel and its beautiful coastline.It also contains the oldest China Town in Canada.</p><p>You can visit here by using<span style='color: red'>/warp (Warp name)</span> on theserver.</p></div><div class='img_small'><img src='jerma.jpg' alt='img1'/><div class='image_text'>Jerma's here!</div></div><div class='img_small'><img src='img2.jpg' alt='img2'/><div class='image_text'>Placeholder</div></div></div></body></html>", //HTML of the popup
+                    "offset": {
+                        "x": 2,
+                        "z": -8
+                    }
+				}
+            }
+        },              
+        {
+            "type": "icon",
+            "data": {
+                "key": "Vancouver",
+                "point": {
+                        "x": -12402926, //Point Name
+                        "z": -7108418
+                },
+                "image": "marker",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Vancouver", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+				"popup": {
+                    "content": "An example.", //HTML of the popup
+                    "offset": {
+                        "x": 2,
+                        "z": -8
+                    }
+				}
+            }
+        },
+        {
+            "type": "icon",
+            "data": {
+                "key": "Edmonton",
+                "point": {
+                        "x": -11567947, //Point Name
+                        "z": -7374465
+                },
+                "image": "POI",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Edmonton", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+                "popup": {
+					"content": "An example." //HTML of the popup
+				}
+            }
+        },
+        {
+            "type": "icon",
+            "data": {
+                "key": "Regina",
+                "point": {
+                        "x": -11018985, //Point Name
+                        "z": -6906705
+                },
+                "image": "POI",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Regina", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+                "popup": {
+					"content": "An example." //HTML of the popup
+				}
+            }
+        },
+        {
+            "type": "icon",
+            "data": {
+                "key": "Winnipeg",
+                "point": {
+                        "x": -10485141, //Point Name
+                        "z": -6803625
+                },
+                "image": "POI",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Winnipeg", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+                "popup": {
+					"content": "An example." //HTML of the popup
+				}
+            }
+        },
+        {
+            "type": "icon",
+            "data": {
+                "key": "Toronto",
+                "point": {
+                        "x": -9057004, //Point Name
+                        "z": -6235317
+                },
+                "image": "POI",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Toronto", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+                "popup": {
+					"content": "An example." //HTML of the popup
+				}
+            }
+        },
+        {
+            "type": "icon",
+            "data": {
+                "key": "Ottawa",
+                "point": {
+                        "x": -8814837, //Point Name
+                        "z": -6504824
+                },
+                "image": "POI",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Ottawa", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+                "popup": {
+					"content": "An example." //HTML of the popup
+				}
+            }
+        },
+        {
+            "type": "icon",
+            "data": {
+                "key": "Quebec",
+                "point": {
+                        "x": -8524587, //Point Name
+                        "z": -6765299
+                },
+                "image": "POI",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Quebec", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+                "popup": {
+					"content": "An example." //HTML of the popup
+				}
+            }
+        },
+        {
+            "type": "icon",
+            "data": {
+                "key": "Fredericton",
+                "point": {
+                        "x": -8154464, //Point Name
+                        "z": -6805378
+                },
+                "image": "POI",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Fredericton", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+                "popup": {
+					"content": "An example." //HTML of the popup
+				}
+            }
+        },
+        {
+            "type": "icon",
+            "data": {
+                "key": "Halifax",
+                "point": {
+                        "x": -7866319, //Point Name
+                        "z": -6773432
+                },
+                "image": "POI",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Halifax", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+                "popup": {
+					"content": "An example." //HTML of the popup
+				}
+            }
+        },
+        {
+            "type": "icon",
+            "data": {
+                "key": "Charlottetown",
+                "point": {
+                        "x": -7915557, //Point Name
+                        "z": -6952114
+                },
+                "image": "POI",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Charlottetown", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+                "popup": {
+                    "content": "An example.", //HTML of the popup
+                    "offset": {
+                        "x": 2,
+                        "z": -6
+                    }
+				}
+            }
+        },
+        {
+            "type": "icon",
+            "data": {
+                "key": "Saint John's'",
+                "point": {
+                        "x": -7302283, //Point Name
+                        "z": -7499282
+                },
+                "image": "POI",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Saint John&sup2", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+                "popup": {
+					"content": "An example." //HTML of the popup
+				}
+            }
+        },
+        {
+            "type": "icon",
+            "data": {
+                "key": "Whitehorse",
+                "point": {
+                        "x": -12446052, //Point Name
+                        "z": -8766898
+                },
+                "image": "POI",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Whitehorse", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+                "popup": {
+					"content": "An example." //HTML of the popup
+				}
+            }
+        },
+        {
+            "type": "icon",
+            "data": {
+                "key": "Yellowknife",
+                "point": {
+                        "x": -11321392, //Point Name
+                        "z": -8382472
+                },
+                "image": "POI",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Yellowknife", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+                "popup": {
+					"content": "An example." //HTML of the popup
+				}
+            }
+        },
+        {
+            "type": "icon",
+            "data": {
+                "key": "Iqaluit",
+                "point": {
+                        "x": -9043585, //Point Name
+                        "z": -8595501
+                },
+                "image": "POI",
+                "anchor": {
+                    "x": 4.5,
+                    "z": 17.0
+                },
+                "size": {
+                    "x": 20,
+                    "z": 20
+                }
+            },
+            "options": {
+                "stroke": {
+                    "weight": 5,
+                    "color": 4281872081
+                },
+                "fill": {
+                    "enabled": true
+                },
+                "tooltip": {
+                    "content": "Iqaluit", //Tooltip Name
+                    "direction": 2,
+                    "sticky": true
+                },
+                "popup": {
+					"content": "An example." //HTML of the popup
+				}
+            }
+        }
+    ]
+}
