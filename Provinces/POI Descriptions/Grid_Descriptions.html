@@ -1,0 +1,150 @@
+<html>
+	<style>
+		.container {
+			display: grid;
+			grid-template-columns: auto auto;
+			gap: 10px 10px;
+			padding: 10px;
+			width: 300px;
+			background-image: url('Wood.jpg');
+			background-size: 50px;
+		}
+		.img_small {
+			position: relative;
+			height: 75px;
+		}
+		.img_small img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+		}
+		.img_large {
+			position: relative;
+			grid-column: 1 / span 2;
+			height: 150px;
+			object-fit: cover;
+		}
+		.img_large img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+		}
+		.text {
+			grid-column: 1 / span 2;
+			background-color: darkblue;
+			padding: 5px;
+			border-radius: 25px;
+			background-image: url('Stone_Bricks.jpg');
+			background-size: 50px;
+		}
+		.title_text {
+			position: absolute;
+			bottom: -20px;
+			left: 10px;
+		}
+		.image_text {
+			position: absolute;
+			bottom: 1px;
+			left: 3px;
+		}
+		.flags {
+			display: flex;
+			position: absolute;
+			top: 5px;
+			left: 3px;
+			padding: 10px;
+			gap: 10px;
+		}
+		.flags img {
+			height: 20px;
+			object-fit: cover;
+		}
+		.warp_text {
+			color: red;
+
+		}
+		.warp_text:hover {
+			color: blue;
+			text-decoration: underline;
+		}
+	</style>
+	<body>
+	<!-- Victoria -->
+		<div class='container'>
+			<div class='img_large'>
+				<img src='img3.jpg' alt='img3' />
+					<div class='flags'>
+						<img src='BC.jpg' alt='flag1'/>
+						<img src='Victoria.jpg' alt='flag2'/>
+					</div>
+				<div class='title_text'>
+					<h2>Placeholder</h2>
+				</div>
+			</div>
+			<div class='text'>
+				<h1>Victoria, BC</h1>
+				<p style="color: snow;">
+					Victoria is the capital of British Columbia. Nicknamed <em>the Garden City </em>, it is famous for the Butchart Gardens, Fairmont Express hotel and its beautiful coastline. It also contains the oldest China Town in Canada.
+				</p>
+				<p>
+					You can visit here by using
+					<span class='warp_text' id="warp_text" onclick='copy_warp()'>/warp (Warp name)</span> on the
+					server.
+<!-- 					<script>
+						function highlight() {
+							document.getElementById('warp_text').style.color = "blue";
+							document.getElementById('warp_text').style.textDecoration = "underline";
+						}
+					</script> -->
+					<script>
+						function copy_warp() {
+							var warp_name = document.getElementById('warp_text');
+				  			navigator.clipboard.writeText(warp_name.value);
+				 			alert('Copied warp command');
+						}
+					</script>
+				</p>
+			</div>
+			<div class='img_small'>
+				<img src='jerma.jpg' alt='img1'/>
+					<div class='image_text'>Jerma's here!</div>
+			</div>
+			<div class='img_small'>
+				<img src='img2.jpg' alt='img2'/>
+					<div class='image_text'>Placeholder</div>
+			</div>
+		</div>
+
+	<!-- Vancouver -->
+		<div class='container'>
+			<div class='img_large'>
+				<img src='img3.jpg' alt='img3' />
+					<div class='flags'>
+						<img src='BC.jpg' alt='flag1'/>
+						<img src='Victoria.jpg' alt='flag2'/>
+					</div>
+				<div class='title_text'>
+					<h2>Vancouver, BC</h2>
+				</div>
+			</div>
+			<div class='text'>
+				<p>
+					Vancouver is the largest city in British Columbia. A bustling metroplis, it is the home to many international events such as the Olympics, TedX talks and green peace. It is also a popular filming location for movie studios.
+				</p>
+				<p>
+					You can visit here by using
+					<span style='color: orange'>/warp (Warp name)</span> on the
+					server.
+				</p>
+			</div>
+			<div class='img_small'>
+				<img src='jerma.jpg' alt='img1'/>
+					<div class='image_text'>Jerma's here!</div>
+			</div>
+			<div class='img_small'>
+				<img src='img2.jpg' alt='img2'/>
+					<div class='image_text'>Placeholder</div>
+			</div>
+		</div>
+	</body>
+</html>
